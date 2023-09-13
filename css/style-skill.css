@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #e6e6e6; */
+}
+
+
+.Mylogo {
+    margin: 0px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 15px;
+
+
+}
+
+/* .active {
+    Border:2px solid #ff294c;
+    border-radius:35px;
+} */
+
+.navbar li a {
+    text-decoration: none;
+    color: #616161;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Fira Sans Condensed', sans-serif;
+    /* background-color: red; */
+}
+
+/* .navbar li a:hover {
+    color: orange;
+    transition: 0.4s;
+} */
+
+.navbar li a:hover {
+    /* border-bottom: 2px solid orange; */
+    transition: 0.3s;
+    color:black;
+}
+
+
+/* Intro */
+.intro{
+    padding-bottom: 60px;
+}
+
+
+.name {
+    padding: 60px 0px;
+    margin: 80px 0px;
+}
+
+.name h2 {
+    font-size: 58px;
+    color: #2f2f2f;
+    font-family: 'Source Code Pro', monospace;
+    /* font-weight:bold; */
+}
+
+.name h3 {
+    font-size: 26px;
+    color: rgb(95, 93, 93);
+    /* font-family:Arial;
+    font-weight:bold; */
+}
+
+.intro-text {
+    font-family: 'Source Code Pro', monospace;
+    color: #2f2f2f;
+}
+
+.btn-contact {
+    padding: 8px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ffa057;
+    /* background-color: black; */
+    border-radius: 15px;
+    border:none;
+    margin-top: 10px;
+    box-shadow: 0 5px 16px -2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-contact:hover {
+    color: #ffa057;
+    transition: 0.8s;
+    background-color: white;
+}
+
+.icon {
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+}
+
+/* Skills  */
+
+.skill{
+    padding:80px 0px;
+    background-color:black;
+    color:white;
+}
+
+.skill-heading{
+    padding:40px 0px;
+}
+
+.percent-box{
+    padding:10px 0px;
+}
+.grey{
+    width:80%;
+    height:20px;
+    background-color:grey;
+}
+.green-html{
+    width:90%;
+    height:20px;
+    background-color:green;
+}
+.green-css{
+    width:80%;
+    height:20px;
+    background-color:green;
+}
+.green-js{
+    width:50%;
+    height:20px;
+    background-color:green;
+}
+.green-ps{
+    width:60%;
+    height:20px;
+    background-color:green;
+}
+
+.button-view{
+    padding:60px 0px 0px 0px;
+    text-align: center;
+}
+.button-view button{
+    padding:10px 20px;
+    background: transparent;
+    border-radius:20px;
+}

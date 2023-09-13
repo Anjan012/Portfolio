@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #e6e6e6; */
+}
+
+
+.Mylogo {
+    margin: 0px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 15px;
+
+
+}
+
+/* .active {
+    Border:2px solid #ff294c;
+    border-radius:35px;
+} */
+
+.navbar li a {
+    text-decoration: none;
+    color: #616161;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Fira Sans Condensed', sans-serif;
+    /* background-color: red; */
+}
+
+/* .navbar li a:hover {
+    color: orange;
+    transition: 0.4s;
+} */
+
+.navbar li a:hover {
+    /* border-bottom: 2px solid orange; */
+    transition: 0.3s;
+    color:black;
+}
+
+.blog-1{
+    padding:80px 0;
+}
+.h-primary{
+    font-size: 30px;
+    padding-bottom:10px;
+    text-align:center;
+    color:#363636
+  
+}
+.p-primary{
+    color: #616161;
+}
+
+.blog-2{
+    padding:80px 0;
+}
+.pop1{
+    padding:20px;
+}
+.b2-padding{
+    /* background-color:blueviolet; */
+    border:1px solid black;
+    border-radius:10px;
+
+}
